@@ -42,7 +42,7 @@ public class KinderGarden {
     }
 
     public static void main(String[] args) {
-        KinderGarden kg = new KinderGarden(7);
+        KinderGarden kg = new KinderGarden(5);
         //kg.setAge(-3);
         kg.getPrice();
     }
