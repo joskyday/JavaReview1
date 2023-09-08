@@ -11,7 +11,7 @@ public class ChildHeyHey extends HeyHey {
 
     public static void main(String[] args) {
 
-         ChildHeyHey childHeyHey=new ChildHeyHey();
-         childHeyHey.num=8;
+
+
     }
 }

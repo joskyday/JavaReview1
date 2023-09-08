@@ -4,15 +4,32 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class HeyHey {
-    protected int num;
 
     public void cube(){
 
         System.out.println(num*num*num);
     }
-    public static void tryMe(){
+    public String word;
+    protected int num;
+
+    int num2;
+
+    private int num3;
+
+
+
+    public static float numf=1.0f;
+
+
+    final  public  static void tryMe(){
         System.out.println("I will help you");
     }
+
+
+
+
+
+
 
     public static void main(String[] args) {
      ArrayList<Integer> list=new ArrayList<>();
@@ -28,6 +45,15 @@ public class HeyHey {
             }
     }
 
+    public HeyHey(String word, int num) {
+        this.word = word;
+        this.num = num;
+    }
 
+    public HeyHey() {
+    }
 
+    public  static final void  example(){
+        System.out.println("I am from parent");
+    }
 }

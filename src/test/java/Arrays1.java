@@ -1,7 +1,8 @@
 public class Arrays1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         int[] arr=new int[20];
         arr[19]=12;
+        Thread.sleep(2000);
         int[] b=new int[10];
         System.out.println(java.util.Arrays.toString(b));
 
@@ -11,6 +12,8 @@ public class Arrays1 {
                 {
                 {1,2,3,4,5},null,{4,5,6}
                 };
+
+
 
 
 
